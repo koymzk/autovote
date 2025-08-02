@@ -1,0 +1,7 @@
+services:
+  playwright:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
